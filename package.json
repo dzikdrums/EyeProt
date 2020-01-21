@@ -10,5 +10,7 @@
     "electron": "^7.1.9",
     "react": "^16.8.6",
     "react-dom": "^16.8.6"
-  }
+  },
+  "repository": "https://github.com/dzikdrums/EyeProt.git",
+  "author": "Maciej Dzik <dzikdrums@gmail.com>"
 }

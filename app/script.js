@@ -75,8 +75,8 @@ class App extends React.Component {
         <h1>Protect your eyes</h1>
         {(status === 'off') && <p>According to optometrists in order to save your eyes, you should follow the 20/20/20. It means you should to rest your eyes every 20 minutes for 20 seconds by looking more than 20 feet away.</p>}
         {(status === 'off') && <p>This app will help you track your time and inform you when it's time to rest.</p>}
-        {(status === 'work') && <img src="./images/work.png" />}
-        {(status === 'rest') && <img src="./images/rest.png" />}
+        {(status === 'work') && <img src="./images/Work.png" />}
+        {(status === 'rest') && <img src="./images/Rest.png" />}
         {(status !== 'off') && <div className="timer">{this.formatTime(time)}</div>}
         {(status === 'off') && <button className="btn" onClick={(e) => this.startTimer(e)}>Start</button>}
         {(status !== 'off') && <button className="btn" onClick={(e) => this.stopTimer(e)}>Stop</button>}
